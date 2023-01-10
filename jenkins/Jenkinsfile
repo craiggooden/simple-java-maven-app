@@ -26,10 +26,5 @@ pipeline {
                 echo 'Job Complete!!!'
             }
          }
-        stage('Complete Final Message') {
-            steps {
-                echo 'Job Complete in its final stage!!'  
-            }    
-        }    
     }
 }
